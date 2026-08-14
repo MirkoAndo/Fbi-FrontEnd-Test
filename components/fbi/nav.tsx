@@ -41,12 +41,14 @@ export function Nav() {
             <Fingerprint className="size-5" />
           </span>
           <span className="flex flex-col leading-none">
+
             <span className="font-display text-lg font-bold tracking-[0.15em] text-foreground">FBI-AI</span>
             <span className="text-[9px] uppercase tracking-[0.3em] text-muted-foreground">Bureau · Intelligence</span>
           </span>
         </a>
 
         <div className="hidden items-center gap-7 lg:flex">
+          
           {links.map((l) => (
             <a
               key={l.href}
@@ -78,6 +80,10 @@ export function Nav() {
           {open ? <X className="size-5" /> : <Menu className="size-5" />}
         </button>
       </nav>
+
+<span className="mt-4 block text-center font-display text-lg font-bold uppercase leading-[1.2] tracking-tight text-foreground sm:text-xl md:text-2xl xl:text-3xl">
+  Mirko Andò<br />Complete Landing Page Test
+</span>
 
       <AnimatePresence>
         {open && (

@@ -116,7 +116,7 @@ export function Footer() {
 
       <div className="border-t border-border">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-5 py-6 text-[10px] uppercase tracking-[0.25em] text-muted-foreground md:flex-row md:px-8">
-          <span>© {new Date().getFullYear()} FBI-AI Bureau Archive</span>
+          <span>© {new Date().getFullYear()} Mirko Andò</span>
           <span className="flex items-center gap-2">
             <span className="size-1.5 animate-blink rounded-full bg-accent" />
             System v2.7.0 · Build Δ-0001
